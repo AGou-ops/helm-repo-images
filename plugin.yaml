@@ -1,0 +1,8 @@
+name: "helm-repo-images"
+version: "0.0.1"
+usage: "List all images from helm repo."
+description: |-
+  List all images from helm repo, used to manually download image packages in advance.
+command: "$HELM_PLUGIN_DIR/script.sh"
+hooks:
+  install: "chmod +x $HELM_PLUGIN_DIR/script.sh"
