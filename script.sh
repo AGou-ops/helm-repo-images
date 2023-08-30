@@ -18,4 +18,4 @@ for i in $origin_text;do
 	fi
 done
 
-echo "$image_name" | sed "s/\"//g" | xargs -n1
+echo "$image_name" | sed "s/\"//g" | xargs -n1 | uniq
