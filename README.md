@@ -15,3 +15,9 @@ helm repo-images <HELM_REPO>
 # ex.
 helm repo-images rancher-latest/rancher
 ```
+
+## Uninstall plugin
+
+```bash
+helm plugin remove repo-images
+```
