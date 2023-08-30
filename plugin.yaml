@@ -1,4 +1,4 @@
-name: "helm-repo-images"
+name: "repo-images"
 version: "0.0.1"
 usage: "List all images from helm repo."
 description: |-
